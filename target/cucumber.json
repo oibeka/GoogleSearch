@@ -1,0 +1,119 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2958956533,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Request a claim through google search",
+        "description": "",
+        "id": "sanity-tests;request-a-claim-through-google-search",
+        "after": [
+          {
+            "result": {
+              "duration": 105813799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 981108153,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the home page",
+            "match": {
+              "location": "SanityTests.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1366495349,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user inputs INTURN keyword in the search field",
+            "match": {
+              "location": "SanityTests.user_inputs_INTURN_keyword_in_the_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 741540903,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks inturn link",
+            "match": {
+              "location": "SanityTests.clicks_inturn_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1388128915,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "cliks request a demo button INTURN website",
+            "match": {
+              "location": "SanityTests.cliks_request_a_demo_button_INTURN_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22317272,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be able to see Request a Demo Page",
+            "match": {
+              "location": "SanityTests.user_should_be_able_to_see_Request_a_Demo_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Sanity Tests",
+    "description": "",
+    "id": "sanity-tests",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sanity/Search.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
